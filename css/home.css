@@ -1,0 +1,120 @@
+.container-min{
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#hero{
+  width: 98vw;
+  height: 120vh;
+  background-image: url(../img/home-bg-img.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  display: flex;
+  padding-top: 102px;
+  padding-bottom: 106;
+}
+.hero__texts {
+  padding-top: 38px;
+  width: 527px;
+  height: 512px;
+}
+.hero__pre-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 155.2%;
+  color: #E87D0E;
+}
+.hero__title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 155.2%;
+  color: #000;
+  margin-top: 17px;
+  margin-bottom: 26px;
+}
+.hero__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000;
+}
+.hero__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+  border-radius: 40px;
+  padding: 15px 31px;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+.hero__button:hover{
+  background: transparent;
+  border-color: #FA8305;
+  color: #FA8305;
+}
+.hero__imgs {
+  width: 675px;
+  height: 590px;
+  background-image: url(../img/img-bg-home.svg);
+  background-size: cover;
+}
+.team {
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+.team__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #222;
+  width: 826px;
+  margin: 0 auto;
+}
+.team-section {
+}
+.team__texts{
+  width: 545px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+.team__pre-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222;
+  margin-bottom: 32px;
+}
+.team__text {
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
+}
+.team__imgs{
+  position: relative;
+  width: 934px;
+  height: 462px;
+}
+.team__img {
+  border-radius: 5px;
+  position: relative;
+}
+.team__imgs::before{
+  content: "";
+  position: absolute;
+  background-image: url(../img/team-bg-bg.svg);
+  width: 196px;
+  height: 154px;
+  top: -67px;
+  right: -87px;
+}
