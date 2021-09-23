@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -47,3 +47,232 @@ p{
   padding-right: 20px;
   padding-left: 20px;
 }
+/* header */
+.up__adres{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1A1A1A;
+  
+}
+.up{
+  justify-content: end;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.up__link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1A1A1A;
+  margin-left: 121px;
+  position: relative;
+}
+.up__link::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -25%;
+  top: 9%;
+  background-image: url('../imj/phone-call.svg');
+}
+.site-header{
+  background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+
+}
+.up__adres{
+  position: relative;
+}
+.up__adres::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -14%;
+  top: 9%;
+  background-image: url('../imj/locate.svg');
+  background-repeat: no-repeat;
+}
+.nav__link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.nav__item{
+  position: relative;
+}
+.site-header__navup{
+  padding: 16px 0;
+}
+.nav__item+.nav__item{
+  margin-left: 64px;
+}
+.nav--btn{
+  color: #DC7000;
+  background: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 6px;
+  padding: 10px 28px;
+  transition: all .3s ease;
+}
+.nav--btn:hover{
+  background-color:#DC7000;
+  color: #fff;
+}
+.nav-activ::before{
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  bottom: 7px;
+  left: -15px;
+}
+.hero__about{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 208.5%;
+  color: #848484;  
+}
+.hero__about--activ{
+  color: #E47500;
+}
+#block-hero{
+  background: rgba(226, 122, 12, 0.12);
+}
+.hero{
+  padding-left: 26px;
+
+}
+.hero__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 180.5%;
+  color: #222222;
+  width: 425px;
+  margin-top: 38px;
+}
+.hero__text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 208.5%;
+  color: #525252;
+  width: 414px;
+  margin-top: 25px;
+}
+.hero__btn{
+  display: inline-block;
+  background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 10px 19px;
+  margin-top: 57px;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.hero__btn:hover{
+  color: #DC7000;
+  background: #fff;
+  border: 2px solid #DC7000
+}
+#block-hero{
+  overflow: hidden;
+}
+.block-hero{
+  padding-top: 112px;
+  position: relative;
+  padding-bottom: 113px;
+}
+.bx-right-arrow-alt{
+  vertical-align: unset;
+}
+.bock-hero__imgs{
+  position: absolute;
+  width: 739px;
+  height: 675px;
+  right: 0;
+
+}
+.block-hero__img{
+  position: absolute;
+  top: -17%;
+  right: -14%;
+}
+#about-us{
+  padding-top: 144px;
+  padding-bottom: 147px;
+}
+.about-us__titles{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 180.5%;
+  color: #222222;
+  margin-bottom: 63px;
+}
+.about-us__item{
+  width: 378px;
+  background: #F5F5F5;
+  border-radius: 20px;
+  padding: 67px 37px;
+  transition: all .4s ease;
+}
+.about-us__item:hover{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+}
+.about-us__link{
+  padding: 7px 35px 7px 14px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 187.5%;
+  display: inline-block;
+  margin-bottom: 19px;
+}
+.fiolet{
+  background: rgba(176, 0, 220, 0.11);
+  color: #B000DC;
+}
+.tomot{
+  background: rgba(220, 66, 0, 0.11);
+  color: #DC1A00;
+}
+.green{
+  background: rgba(0, 220, 141, 0.11);
+  color: #00DC72;
+}
+.about-us__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187.5%;
+  color: #000000; 
+  margin-bottom: 16px;
+}
+.about-us__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #525252;
+  width: 304px;
+}
+.about-us__item{
+  
+}
+/* /header */
