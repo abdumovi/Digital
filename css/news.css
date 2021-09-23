@@ -110,3 +110,13 @@
 .smal-content__colors{
   background: #FF7C32;
 }
+.nav-activ::before{
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  bottom: 7px;
+  left: -15px;
+}
