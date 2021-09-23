@@ -47,6 +47,7 @@ p{
   padding-right: 20px;
   padding-left: 20px;
 }
+
 /* header */
 .up__adres{
   font-style: normal;
@@ -276,3 +277,159 @@ p{
   
 }
 /* /header */
+/* css start */
+/* start section communication */
+#communication {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+}
+
+.comm-contents {
+}
+.content-imgs {
+  padding-top: 113px;
+}
+.content__img {
+  width: 496px;
+  height: 489px;
+}
+.content-titles {
+  padding-top: 180px;
+  padding-bottom: 68px;
+}
+.content__title {
+  width: 531px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 157.5%;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+.content__title::before {
+  content: "Lorem ispum";
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 202.5%;
+  color: #DC7000;
+  margin-bottom: 14px;
+}
+.content__text {
+  width: 536px;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 202.5%;
+  color: #000;
+}
+/* /end section communication */
+/* start section ourteam */
+#ourteam {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 138px;
+  padding-bottom: 130px;
+}
+.team__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 180.5%;
+  color: #222;
+}
+.people__list {
+  margin-top: 53px;
+}
+.people__item {
+  margin-right: 28px;
+  border-radius: 20px;
+  background: #F5F5F5;
+  padding: 30px 76px 35px 75px;
+  transition: all 0.4s ease;
+}
+.people__item::before {
+  content: "";
+  width: 123px;
+  height: 123px;
+  display: inline-block;
+  background-image: url("../img/john-pater.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.people__item:nth-child(2)::before {
+  background-image: url("../img/john-pater-two.svg");
+}
+.people__item:nth-child(3)::before {
+  background-image: url("../img/john-pater-three.svg");
+}
+.people__item:nth-child(4)::before {
+  background-image: url("../img/john-pater-four.svg");
+}
+.people__item:hover {
+  background: #fff;
+  box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+}
+.people__text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 202.5%;
+  color: #000;
+}
+.people__subtext {
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  line-height: 202.5%;
+  color: #8B8B8B;
+}
+/* /end section ourteam */
+
+/* start section partner */
+#partner {
+  font-family: 'Poppins', sans-serif;
+  background: #F5F5F5;
+}
+.partner__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  position: relative;
+  top: 70px;
+  margin-left: 90px;
+  color: #000;
+}
+.partner-lists {
+  padding: 100px 250px 50px 90px;
+}
+.partner__list {
+  align-items: center;
+}
+.partner__item {
+  margin-right: 73px;
+}
+.partner__item {
+  width: 105px;
+}
+.partner__item:nth-child(2) {
+  width: 158px;
+}
+.partner__item:nth-child(3) {
+  width: 156px;
+}
+.partner__item:nth-child(4) {
+  width: 147px;
+}
+
+.partner__item:nth-child(5) {
+  width: 176px;
+}
+/* /end section partner */
+/* /css end */
