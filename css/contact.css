@@ -89,3 +89,142 @@
   position: relative;
   top: 9px;
 }
+/* css start */
+/* start section registration */
+#registration {
+  margin-top: 185px;
+  width: 100vw;
+  height: 141vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  padding-bottom: 100px;
+  background-image: url("../img/form-bg-botton.svg"),url("../img/form-bg-top.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-size: 587px 255px, 1048px 265px;
+  background-position: bottom left -28px, top -10px right -20px;
+}
+.regis-titles {
+  padding-top: 54px;
+}
+.regis__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 189.5%;
+  text-align: center;
+  color: #000;
+}
+.regis__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 189.5%;
+  text-align: center;
+  color: #777;
+}
+
+.first-and-last {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+.first-name {
+  display: flex;
+  flex-direction: column;
+  margin-right: 27px;
+}
+.last-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 175.4%;
+  letter-spacing: -0.3px;
+  color: #4f4f4f;
+  margin-bottom: 6px;
+}
+
+.name__inp {
+  width: 322px;
+  padding: 10px 0;
+  border: 0.6px solid #CECECE;
+  border-radius: 9px;
+  outline: none;
+  padding-right: 20px;
+  background-color: #fff;
+}
+.emails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.email {
+  width: 671px;
+  flex-direction: column;  
+}
+.email__name {
+  margin: 0;
+  margin-bottom: 3px;
+}
+.email__inp {
+  padding: 10px 0;
+  border: 0.6px solid #CECECE;
+  background-color: #fff;
+  border-radius: 9px;
+  outline: none;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  width: 672px;
+}
+.area {
+  width: 672px;
+  height: 272px;
+  background: #fff;
+  border: 0.6px solid #cecece;
+  border-radius: 9px;
+  outline: none;
+  resize: none;
+}
+.message__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 175.4%;
+  letter-spacing: -0.3px;
+  color: #4F4F4F;
+  margin-bottom: 3px;
+}
+
+.regis-btns {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 51px;
+}
+.regis__btn {
+  border: none;
+  background: #DC7000;
+  border-radius: 10px;
+  padding: 15px 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 204.3%;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.regis__btn:hover {
+  background: #f38815;
+}
