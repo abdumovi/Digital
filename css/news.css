@@ -88,6 +88,26 @@
   margin-top: 32px;
   width: 529px;
 }
+/* SOHIBJON  */
+.big-content__first-text {
+  width: 587px;
+  height: 148px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 35px;
+  color: #515151;
+  margin-top: 44px;
+  border-bottom: 0.7px solid #A5A5A5;
+  margin-bottom: 90px;
+}
+.big-content__btn-green {
+  background: #23A54F;
+}
+.big-content__btn-end {
+  background: #9921C4;
+}
+/* SOHIBJON  */
 .smal-content__title{
   font-style: normal;
   font-weight: 600;
