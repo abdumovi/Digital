@@ -7,11 +7,10 @@
 }
 
 #hero{
-  width: 98vw;
-  height: 120vh;
-  background-image: url(../imj/main-bg-img.svg);
+  background-image: url(../imj/hgb.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 .hero {
@@ -81,8 +80,6 @@
   width: 826px;
   margin: 0 auto;
 }
-.team-section {
-}
 .team__texts{
   width: 545px;
   padding-top: 50px;
@@ -117,4 +114,203 @@
   height: 154px;
   top: -67px;
   right: -87px;
+}
+/* comforts */
+.comforts__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #222222;
+  width: 826px;
+}
+.comfort__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #525252; 
+  width: 820px; 
+}
+.comforts__item{
+  width: 220px;
+  height: 170px;
+  position: relative;
+}
+.comforts__item+.comforts__item{
+  margin-left: 100px;
+}
+.comforts__list{
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+}
+.comforts__list--margin{
+  margin-bottom: 62px;
+}
+.comforts__item:nth-child(5){
+  margin-left: 0;
+}
+.comforts__item-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #000000;
+  width: 220px;
+  padding-top: 25px;
+
+}
+.com__i1{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort1.svg");
+  background-position: top center;
+}
+.com__i2{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort2.svg");
+  background-position: top center;
+}
+.com__i3{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort3.svg");
+  background-position: top center;
+}
+.com__i4{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort4.svg");
+  background-position: top center;
+}
+.com__i5{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort5.svg");
+  background-position: top center;
+}
+.com__i6{
+  background-repeat: no-repeat;
+  background-image: url("../imj/comfort6.svg");
+  background-position: top center;
+}
+.comforts__item::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.bx-right-arrow-alt{
+  font-size: 27px;
+  display: block;
+  width: 27px;
+  margin: 0 auto;
+  margin-top: 24px;
+  color: #DC7000;
+}
+#comforts{
+  padding-bottom: 132px;
+}
+#hom__slide{
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background: #F5F5F5;
+}
+.hom__item{
+  background-color: #fff;
+}
+.slide__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222222;
+   
+}
+.slide__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
+  width: 545px;
+  margin-top: 32px;
+  margin-bottom: 35px;
+}
+.slide__btn{
+  width: 39px;
+  height: 39px;
+  background-color: #fff;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.reset__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #222222;  
+}
+.reset__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #525252;
+  margin-top: 18px;
+  margin-bottom: 71px;
+  width: 497px;
+}
+/* .img-block__item+.img-block__item{
+  margin-left: 27px;
+
+} */
+.reset__img-block{
+  justify-content: space-evenly;
+}
+.img-block__item{
+  margin-bottom: 33px;
+}
+#reset{
+  padding-top: 101px;
+  padding-bottom: 99px;
+}
+.group__title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  width: 472px;
+  
+}
+.group__text{
+  width: 536px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #515151;
+  margin-top: 43px;
+  
+}
+.group__btn{
+  background: #DC7000;
+  padding: 13px 44px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 46px;
+
+}
+.group{
+  flex-direction: row-reverse;
 }
